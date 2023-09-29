@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="C:\Users\Administrator\Desktop\JAVA FULLSTACK\CSS\style.css" />
+</head>
+<body>
+    <div id="aa">
+    <h1>simple calculator</h1>
+    <br><br>
+    <!-- Form tag start -->
+    <form action="" name="form1" >
+        <input type="text" name="result" id="cc">
+        <br>
+        <br>
+        <!-- type="button" it is attribute -->
+        <!-- value="give value" value show on button  -->
+        <!-- onclick="" attribute onclick attribute if in click button what event occured i did set -->
+        <div id="bb" >
+        <input type="button" value="1" onclick="form1.result.value= form1.result.value+'1'">
+        <input type="button" value="2" onclick="form1.result.value= form1.result.value+'2'">
+        <input type="button" value="3" onclick="form1.result.value= form1.result.value+'3'">
+        <input type="button" value="+" onclick="form1.result.value= form1.result.value+'+'">
+        <br><br>
+        <input type="button" value="4" onclick="form1.result.value= form1.result.value+'4'">
+        <input type="button" value="5" onclick="form1.result.value= form1.result.value+'5'">
+        <input type="button" value="6" onclick="form1.result.value= form1.result.value+'6'">        
+        <input type="button" value="-" onclick="form1.result.value= form1.result.value+'-'">        
+        <br><br> 
+        <input type="button" value="7" onclick="form1.result.value= form1.result.value+'7'">
+        <input type="button" value="8" onclick="form1.result.value= form1.result.value+'8'">
+        <input type="button" value="9" onclick="form1.result.value= form1.result.value+'9'">
+        <input type="button" value="*" onclick="form1.result.value= form1.result.value+'*'">
+        <br><br>
+        <input type="button" value="/" onclick="form1.result.value= form1.result.value+'/'">
+        <input type="button" value="." onclick="form1.result.value= form1.result.value+'.'">
+        <input type="button" value="=" onclick="form1.result.value= eval(form1.result.value)">
+        <input type="button" value="%" onclick="form1.result.value= form1.result.value+'%'">
+        </div>
+    </form>
+    </div>
+</body>
+</html>
